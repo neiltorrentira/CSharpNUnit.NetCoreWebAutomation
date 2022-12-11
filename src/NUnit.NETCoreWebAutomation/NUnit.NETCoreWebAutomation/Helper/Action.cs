@@ -12,7 +12,7 @@ using NUnit.NETCoreWebAutomation.Models;
 
 namespace NUnit.NETCoreWebAutomation.Helper
 {
-    public class Action : WebDriver
+    public class Action : CommonService
     {
         public void Click(By by)
         {

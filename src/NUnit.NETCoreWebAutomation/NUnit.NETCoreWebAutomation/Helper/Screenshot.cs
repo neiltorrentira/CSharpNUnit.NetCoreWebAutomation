@@ -5,7 +5,7 @@ using NUnit.NETCoreWebAutomation.Services;
 
 namespace NUnit.NETCoreWebAutomation.Helper
 {
-    public class Screenshot : WebDriver
+    public class Screenshot : CommonService
     {
         public void Screenshots(string testgroupname)
         {
