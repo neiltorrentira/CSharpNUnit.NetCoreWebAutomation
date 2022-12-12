@@ -97,9 +97,6 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Chutzpah Test files
-_Chutzpah*
-
 # Visual C++ cache files
 ipch/
 *.aps
@@ -130,9 +127,6 @@ $tf/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-
-# TeamCity is a build add-in
-_TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
@@ -269,9 +263,6 @@ ServiceFabricBackup/
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
 
-# Microsoft Fakes
-FakesAssemblies/
-
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
@@ -295,10 +286,6 @@ node_modules/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
-
-# Paket dependency manager
-.paket/paket.exe
-paket-files/
 
 # FAKE - F# Make
 .fake/
